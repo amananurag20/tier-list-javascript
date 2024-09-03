@@ -43,7 +43,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     width: 1300px;
-    height: 550px;
+    height: 500px;
     background-color: yellow;
     margin-bottom: 50px;
 }
@@ -53,7 +53,7 @@ body {
     border: 2px solid red;
     margin: 5px;
     background-color: white;
-    min-width: 200px;
+    /* max-width: 1300px; */
      display: flex;
      position: relative;
 }
@@ -66,7 +66,14 @@ body {
     height: 320px;
     display: flex;
     flex-wrap: wrap;
-    gap: 3px;
+    gap: 10px;
+    padding: 15px;
+    padding-left: 40px;
+}
+
+.bottom-content img{
+width: 120px;
+height: 120px    ;
 }
 
 .button-upload {
